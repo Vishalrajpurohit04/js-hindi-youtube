@@ -9,7 +9,9 @@ let valueInNumber = Number(score)
 
 
 // "33" => 33
-// "33abc" => NaN
+// "33abc" => NaN , but typeof NaN => number
+// null => 0
+// undefined => NaN 
 //  true => 1; false => 0
 
 let isLoggedIn = "hitesh"
